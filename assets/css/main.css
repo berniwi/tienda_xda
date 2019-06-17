@@ -9765,7 +9765,9 @@ h3 {
 
 header {
   background-color: #FFF;
-  padding: 3vh 3vw 3vh 60vw;
+  width: 100vw;
+  height: 12vh;
+  padding: 3vh 0 0 60vw;
 }
 
 .nav-item {
@@ -9774,8 +9776,8 @@ header {
 
 .text {
   width: 40vw;
+  height: 60vh;
   background-color: #FFF;
-  padding-bottom: 10vh;
   padding-left: 5vw;
 }
 .text h1 {
@@ -9791,21 +9793,19 @@ header {
 
 .newsletter {
   width: 40vw;
-  height: 27.7vh;
+  height: 28vh;
   background-color: #0C0910;
   padding-left: 5vw;
-  padding-top: 5vh;
 }
 .newsletter h3 {
+  padding-top: 5vh;
   padding-bottom: 4vh;
 }
-
-.navbar-brand {
-  background-color: #0C0910;
-  position: absolute;
-  top: -3vh;
-  left: -60vw;
-  padding: 4vh 1vw;
+.newsletter form {
+  width: 50%;
+  padding-top: 1vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
 }
 
 .img {
@@ -9814,16 +9814,38 @@ header {
   height: 88vh;
 }
 
+.navbar-brand {
+  background-color: #0C0910;
+  position: absolute;
+  height: 12vh;
+  width: 7vw;
+  top: -3vh;
+  left: -60vw;
+  padding-left: 1vw;
+  padding-top: 4vh;
+}
+
 .sus {
-  height: 5vh;
-  width: 27.7vh;
+  height: 3vw;
+  width: 28vh;
   text-align: center;
-  background-color: green;
-  padding-top: 1vh;
+  background-color: #FFF;
+  padding-top: 1.5vh;
+  position: absolute;
+  top: 83vh;
+  left: 31vw;
   transform: rotate(90deg);
-  position: relative;
-  top: -5.6vh;
-  left: 26vw;
+}
+
+.boton {
+  background-color: #FFF;
+  font-family: "Raleway", sans-serif;
+  border-radius: 0px;
+  padding: 2vh 3vw;
+  border-style: 3px solid #0C0910;
+  text-decoration: none;
+  color: #0C0910;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */
