@@ -1,14 +1,16 @@
 .navbar-brand{
   font-family: $old_standard;
-  font-size: $x-large;
+  font-size: $xx-large;
   font-weight: $letra_regular;
+  text-decoration: none;
+  color: $white;
 }
 
 .nav-link{
   font-family: $raleway;
   font-size: $large;
   text-decoration: none;
-  color: red;
+  color: $smoky-black;
   font-weight: $letra_bold;
 }
 
@@ -23,5 +25,26 @@ p{
   font-family: $raleway;
   font-size: $large;
   color: $granite_gray;
+  font-weight: $letra_regular;
+
+  a{
+    font-family: $old_standard;
+    font-size: $large;
+    color: $smoky-black;
+    font-weight: $letra_bold;
+  }
+}
+
+h3{
+  font-family: $old_standard;
+  font-size: $xx-large;
+  color: $white;
+  font-weight: $letra_bold;
+}
+
+.mail{
+  font-family: $old_standard;
+  font-size: $medium;
+  color: $white;
   font-weight: $letra_regular;
 }

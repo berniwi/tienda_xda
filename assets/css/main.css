@@ -9709,17 +9709,23 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .navbar-brand {
   font-family: "Old Standard TT", serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 400;
+  text-decoration: none;
+  color: #FFF;
 }
 
 .nav-link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   text-decoration: none;
-  color: red;
+  color: #0C0910;
   font-weight: 700;
 }
 
@@ -9735,6 +9741,89 @@ p {
   font-size: 18px;
   color: #646266;
   font-weight: 400;
+}
+p a {
+  font-family: "Old Standard TT", serif;
+  font-size: 18px;
+  color: #0C0910;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Old Standard TT", serif;
+  font-size: 30px;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.mail {
+  font-family: "Old Standard TT", serif;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 400;
+}
+
+header {
+  background-color: #FFF;
+  padding: 3vh 3vw 3vh 60vw;
+}
+
+.nav-item {
+  padding-right: 2.5vw;
+}
+
+.text {
+  width: 40vw;
+  background-color: #FFF;
+  padding-bottom: 10vh;
+  padding-left: 5vw;
+}
+.text h1 {
+  width: 80%;
+  padding-top: 8vh;
+  padding-bottom: 4vh;
+}
+.text p {
+  width: 65%;
+  padding-bottom: 4vh;
+  line-height: 25px;
+}
+
+.newsletter {
+  width: 40vw;
+  height: 27.7vh;
+  background-color: #0C0910;
+  padding-left: 5vw;
+  padding-top: 5vh;
+}
+.newsletter h3 {
+  padding-bottom: 4vh;
+}
+
+.navbar-brand {
+  background-color: #0C0910;
+  position: absolute;
+  top: -3vh;
+  left: -60vw;
+  padding: 4vh 1vw;
+}
+
+.img {
+  float: right;
+  width: 60vw;
+  height: 88vh;
+}
+
+.sus {
+  height: 5vh;
+  width: 27.7vh;
+  text-align: center;
+  background-color: green;
+  padding-top: 1vh;
+  transform: rotate(90deg);
+  position: relative;
+  top: -5.6vh;
+  left: 26vw;
 }
 
 /*# sourceMappingURL=main.css.map */

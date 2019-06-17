@@ -1,5 +1,10 @@
 @import 'vendors/bootstrap-4/bootstrap';
-
 @import 'abstracts/variables';
 @import 'base/reset';
 @import 'base/typography';
+@import 'layouts/header';
+@import 'layouts/text';
+@import 'layouts/newsletter';
+@import 'components/brand';
+@import 'components/img';
+@import 'components/suscribir';
