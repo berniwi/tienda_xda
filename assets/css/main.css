@@ -9805,15 +9805,24 @@ header {
   width: 50%;
   padding-top: 1vh;
   font-family: "Raleway", sans-serif;
-  font-size: 12px;
 }
 
-.img {
-  float: right;
-  width: 60vw;
-  height: 88vh;
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .img {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+  }
 }
-
+@media only screen and (min-width: 992px) {
+  .img {
+    float: right;
+    width: 60vw;
+    height: 88vh;
+  }
+}
 .navbar-brand {
   background-color: #0C0910;
   position: absolute;
