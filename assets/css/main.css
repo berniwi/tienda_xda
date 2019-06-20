@@ -9772,7 +9772,7 @@ h2 {
   height: 12vh;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   .content__img__md {
     height: 40vh;
     background-image: url("../img/model.jpg");
