@@ -1,10 +1,28 @@
-.boton{
-  background-color: $white;
-  font-family: $raleway;
-  border-radius: 0px;
-  padding: 2vh 3vw;
-  border-style: 3px solid $smoky-black;
-  text-decoration: none;
-  color: $smoky-black;
-  font-weight: $letra_bold;
+@media only screen and (max-width: 768px) {
+  .boton{
+    background-color: $white;
+    font-family: $raleway;
+    padding: 2vh 3vw;
+    border: 1px solid $smoky-black;
+    text-decoration: none;
+    font-weight: $letra_bold;
+    font-size: $xx-large;
+    a{
+        color: $smoky-black;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .boton{
+    background-color: $white;
+    font-family: $raleway;
+    padding: 2vh 3vw;
+    border: 1px solid $smoky-black;
+    text-decoration: none;
+    font-weight: $letra_bold;
+    a{
+        color: $smoky-black;
+    }
+  }
 }

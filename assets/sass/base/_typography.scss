@@ -1,4 +1,4 @@
-.navbar-brand{
+.ty_brand{
   font-family: $old_standard;
   font-size: $xx-large;
   font-weight: $letra_regular;
@@ -21,30 +21,30 @@ h1{
   font-weight: $letra_bold;
 }
 
-p{
+.ty_paragraph{
   font-family: $raleway;
   font-size: $large;
   color: $granite_gray;
   font-weight: $letra_regular;
-
-  a{
-    font-family: $old_standard;
-    font-size: $large;
-    color: $smoky-black;
-    font-weight: $letra_bold;
-  }
 }
 
-h3{
+h2{
   font-family: $old_standard;
   font-size: $xx-large;
   color: $white;
   font-weight: $letra_bold;
 }
 
-.mail{
+.ty_mail{
   font-family: $old_standard;
   font-size: $medium;
   color: $white;
   font-weight: $letra_regular;
+}
+
+.ty_sus{
+    font-family: $old_standard;
+    font-size: $large;
+    color: $smoky-black;
+    font-weight: $letra_bold;
 }

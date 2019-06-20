@@ -9713,7 +9713,11 @@ table {
   box-sizing: border-box;
 }
 
-.navbar-brand {
+*[class^=col-] {
+  padding: 0;
+}
+
+.ty_brand {
   font-family: "Old Standard TT", serif;
   font-size: 30px;
   font-weight: 400;
@@ -9736,125 +9740,281 @@ h1 {
   font-weight: 700;
 }
 
-p {
+.ty_paragraph {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   color: #646266;
   font-weight: 400;
 }
-p a {
-  font-family: "Old Standard TT", serif;
-  font-size: 18px;
-  color: #0C0910;
-  font-weight: 700;
-}
 
-h3 {
+h2 {
   font-family: "Old Standard TT", serif;
   font-size: 30px;
   color: #FFF;
   font-weight: 700;
 }
 
-.mail {
+.ty_mail {
   font-family: "Old Standard TT", serif;
   font-size: 16px;
   color: #FFF;
   font-weight: 400;
 }
 
-header {
-  background-color: #FFF;
-  width: 100vw;
+.ty_sus {
+  font-family: "Old Standard TT", serif;
+  font-size: 18px;
+  color: #0C0910;
+  font-weight: 700;
+}
+
+.header_row {
   height: 12vh;
-  padding: 3vh 0 0 60vw;
 }
 
-.nav-item {
-  padding-right: 2.5vw;
-}
+@media only screen and (max-width: 992px) {
+  .content__img__md {
+    height: 40vh;
+    background-image: url("../img/model.jpg");
+    background-size: cover;
+  }
 
-.text {
-  width: 40vw;
-  height: 60vh;
-  background-color: #FFF;
-  padding-left: 5vw;
-}
-.text h1 {
-  width: 80%;
-  padding-top: 8vh;
-  padding-bottom: 4vh;
-}
-.text p {
-  width: 65%;
-  padding-bottom: 4vh;
-  line-height: 25px;
-}
+  .content__text {
+    height: 35vh;
+    padding-left: 10%;
+  }
 
-.newsletter {
-  width: 40vw;
-  height: 28vh;
-  background-color: #0C0910;
-  padding-left: 5vw;
-}
-.newsletter h3 {
-  padding-top: 5vh;
-  padding-bottom: 4vh;
-}
-.newsletter form {
-  width: 50%;
-  padding-top: 1vh;
-  font-family: "Raleway", sans-serif;
-}
+  .content__text__h1 {
+    padding-top: 4vh;
+    width: 90%;
+    padding-bottom: 4vh;
+    font-size: 80px;
+  }
 
+  .content__text__p {
+    width: 90%;
+    padding-bottom: 2vh;
+    font-size: 30px;
+  }
+
+  .content__news {
+    height: 20vh;
+    padding-left: 10%;
+    background-color: #0C0910;
+  }
+
+  .content__news__h2 {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 60px;
+  }
+
+  .content__news__p {
+    padding-bottom: 1vh;
+    font-size: 30px;
+  }
+
+  .content__news__input {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    width: 55%;
+    padding: 1vh 1vw;
+  }
+
+  .content__sus__p {
+    padding-left: 7vh;
+    padding-top: 2vh;
+    transform: rotate(90deg);
+    z-index: 1;
+    font-size: 50px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .img {
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    z-index: -1;
+  .content__img {
+    display: none;
+  }
+
+  .content__img__md {
+    height: 40vh;
+    background-image: url("../img/model.jpg");
+    background-size: cover;
+  }
+
+  .content__text {
+    height: 35vh;
+    padding-left: 15%;
+  }
+
+  .content__text__h1 {
+    padding-top: 4vh;
+    width: 60%;
+    padding-bottom: 4vh;
+  }
+
+  .content__text__p {
+    width: 55%;
+    padding-bottom: 2vh;
+  }
+
+  .content__news {
+    height: 16vh;
+    padding-left: 6vw;
+    background-color: #0C0910;
+  }
+
+  .content__news__h2 {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  .content__news__p {
+    padding-bottom: 1vh;
+  }
+
+  .content__news__input {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    width: 55%;
+    padding: 1vh 1vw;
+  }
+
+  .content__sus__p {
+    padding-left: 7vh;
+    transform: rotate(90deg);
+    z-index: 1;
   }
 }
 @media only screen and (min-width: 992px) {
-  .img {
-    float: right;
-    width: 60vw;
-    height: 88vh;
+  .content__img {
+    height: 85vh;
+    background-image: url("../img/model.jpg");
+    background-size: cover;
+  }
+
+  .content__img__md {
+    display: none;
+  }
+
+  .content__text {
+    height: 60vh;
+    padding-left: 6vw;
+  }
+
+  .content__text__h1 {
+    padding-top: 8vh;
+    width: 80%;
+    padding-bottom: 4vh;
+  }
+
+  .content__text__p {
+    width: 60%;
+    padding-bottom: 4vh;
+  }
+
+  .content__news {
+    height: 25vh;
+    padding-left: 6vw;
+    background-color: #0C0910;
+  }
+
+  .content__news__h2 {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+
+  .content__news__p {
+    padding-bottom: 1vh;
+  }
+
+  .content__news__input {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    width: 55%;
+    padding: 1vh 1vw;
+  }
+
+  .content__sus__p {
+    padding-left: 10vh;
+    padding-top: 3vh;
+    transform: rotate(90deg);
+    z-index: 1;
   }
 }
-.navbar-brand {
+.cabecera__brand {
   background-color: #0C0910;
-  position: absolute;
-  height: 12vh;
-  width: 7vw;
-  top: -3vh;
-  left: -60vw;
-  padding-left: 1vw;
-  padding-top: 4vh;
+  height: 120px;
+  width: 120px;
+  padding-top: 45px;
+  padding-left: 20px;
 }
 
-.sus {
-  height: 3vw;
-  width: 28vh;
-  text-align: center;
-  background-color: #FFF;
-  padding-top: 1.5vh;
-  position: absolute;
-  top: 83vh;
-  left: 31vw;
-  transform: rotate(90deg);
+@media only screen and (max-width: 768px) {
+  .boton {
+    background-color: #FFF;
+    font-family: "Raleway", sans-serif;
+    padding: 2vh 3vw;
+    border: 1px solid #0C0910;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .boton a {
+    color: #0C0910;
+  }
 }
+@media only screen and (min-width: 768px) {
+  .boton {
+    background-color: #FFF;
+    font-family: "Raleway", sans-serif;
+    padding: 2vh 3vw;
+    border: 1px solid #0C0910;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .boton a {
+    color: #0C0910;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cabecera__nav {
+    display: none;
+  }
 
-.boton {
-  background-color: #FFF;
-  font-family: "Raleway", sans-serif;
-  border-radius: 0px;
-  padding: 2vh 3vw;
-  border-style: 3px solid #0C0910;
-  text-decoration: none;
-  color: #0C0910;
-  font-weight: 700;
+  .cabecera__burger {
+    color: black;
+    padding-top: 1vh;
+    padding-left: 70%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .cabecera__nav {
+    height: 120px;
+    padding-top: 45px;
+  }
+
+  .cabecera__burger {
+    display: none;
+  }
+
+  .cabecera__nav__item {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .cabecera__nav {
+    height: 120px;
+    padding-left: 20%;
+    padding-top: 45px;
+  }
+
+  .cabecera__burger {
+    display: none;
+  }
+
+  .cabecera__nav__item {
+    display: inline-block;
+    padding-left: 5%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

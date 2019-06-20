@@ -1,11 +1,13 @@
 @import 'vendors/bootstrap-4/bootstrap';
+
 @import 'abstracts/variables';
+
 @import 'base/reset';
 @import 'base/typography';
+
 @import 'layouts/header';
-@import 'layouts/text';
-@import 'layouts/newsletter';
-@import 'layouts/img';
+@import 'layouts/content';
+
 @import 'components/brand';
-@import 'components/suscribir';
 @import 'components/button';
+@import 'components/nav';
